@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Link Tracker Pro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <h1>🔗 Link Tracker Pro</h1>
+
+  <!-- Track New Link Panel -->
+  <div class="form-panel">
+    <h2>Track New Link</h2>
+
+    <input type="text" id="title" placeholder="Title (e.g. Google Internship 2026)">
+    <input type="url" id="url" placeholder="Paste Link URL">
+    
+    <select id="category">
+      <option value="">Select Category</option>
+      <option>Internship</option>
+      <option>Placement</option>
+      <option>Hackathon</option>
+      <option>Scholarship</option>
+    </select>
+
+    <label>Expiry Date & Time</label>
+    <input type="datetime-local" id="expiry">
+
+    <button onclick="addLink()">Add Link</button>
+  </div>
+
+  <!-- Links Display -->
+  <div id="linksContainer" class="links-grid"></div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
