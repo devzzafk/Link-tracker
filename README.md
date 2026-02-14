@@ -2,27 +2,26 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+# Link-Track pro 🎯
 
 ## Basic Details
 
 ### Team Name: [Name]
 
-### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
 
 ### Hosted Project Link
-[mention your project hosted link here]
+[https://deadlink-projectt.vercel.app/]
 
 ### Project Description
-[2-3 lines about what your project does]
+Link Tracker Pro is a smart web-based application designed to help students and early professionals manage time-sensitive opportunity links such as internships, hackathons, placements, and scholarships.
+In today’s fast-paced digital environment, opportunities are shared across multiple platforms including WhatsApp groups, LinkedIn posts, emails, and college portals. As a result, students often save links but forget deadlines, leading to missed career opportunities.
+Link Tracker Pro solves this problem by centralizing important links in one organized dashboard with real-time deadline tracking and automated status classification
 
 ### The Problem statement
-[What problem are you solving?]
+Students receive important opportunity links through multiple platforms like WhatsApp, LinkedIn, and email, but there is no structured way to track their deadlines. As a result, many miss internships, hackathons, and scholarships simply because they forget expiry dates or lose links in scattered sources.
 
 ### The Solution
-[How are you solving it?]
+Link Tracker Pro is a centralized web platform that allows users to store opportunity links, set expiry dates, and track deadlines in real time. It automatically categorizes links as Active, Expiring Soon, or Expired and displays a live countdown, ensuring users never miss important opportunities.The system automatically calculates the remaining time and displays a real-time countdown timer. Based on the deadline, each link is dynamically categorized as Active, Expiring Soon, or Expired, with clear visual indicators for urgency.This transforms simple link saving into intelligent deadline management, helping users stay organized, proactive, and aware of upcoming opportunities.
 
 ---
 
@@ -31,25 +30,30 @@
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
+- Languages used: [e.g., HTML , CSS M JAVASCRIPT]
+- Frameworks used: No external frameworks were used.
+The project is built using Vanilla JavaScript to keep it lightweight, fast, and dependency-free.
+- Libraries used: No third-party libraries were used.
+The project relies entirely on built-in browser APIs such as:
+LocalStorage API
+JavaScript Date Object
+setInterval() for real-time updates
 - Tools used: [e.g., VS Code, Git, Docker]
-
-**For Hardware:**
-- Main components: [List main components]
-- Specifications: [Technical specifications]
-- Tools required: [List tools needed]
-
----
 
 ## Features
 
 List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
+--Feature 1: Centralized Link Management
+Allows users to store and organize important opportunity links (internships, hackathons, placements, scholarships) in one structured dashboard instead of scattered platforms.
+
+--Feature 2: Real-Time Countdown Timer
+Automatically calculates and displays the remaining time (days, hours, minutes, seconds) for each link, updating every second.
+
+--Feature 3: Smart Status Classification
+Dynamically categorizes links as Active, Expiring Soon, or Expired based on deadline proximity, helping users prioritize urgent opportunities.
+
+--Feature 4: Persistent Local Storage
+Saves all added links in the browser using LocalStorage, ensuring data remains intact even after refreshing or reopening the page.
 
 ---
 
@@ -58,24 +62,9 @@ List the key features of your project:
 ### For Software:
 
 #### Installation
-```bash
-[Installation commands - e.g., npm install, pip install -r requirements.txt]
-```
+# No installation required
+# This is a pure frontend web application.
 
-#### Run
-```bash
-[Run commands - e.g., npm start, python app.py]
-```
-
-### For Hardware:
-
-#### Components Required
-[List all components needed with specifications]
-
-#### Circuit Setup
-[Explain how to set up the circuit]
-
----
 
 ## Project Documentation
 
@@ -106,28 +95,7 @@ List the key features of your project:
 
 ---
 
-### For Hardware:
 
-#### Schematic & Circuit
-
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-#### Build Photos
-
-![Team](Add photo of your team here)
-
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
 
 ---
 
